@@ -1,0 +1,27 @@
+{
+    "name": "デモ用ZETag制御",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "zetag": "github:tipyman/pxt-zetag#4672fd8718cd7621fcf617f0746d6095c89cbefa",
+        "power": "github:microbit-foundation/pxt-microbit-v2-power#v0.2.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
